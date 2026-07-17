@@ -1,2 +1,34 @@
-提交历史.md
+# 环境变量
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 虚拟环境
+venv/
+.venv/
+
+# 上传文件
 upload/
+
+# 数据库
+chroma_db/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 其他
+*.log
+提交历史.md

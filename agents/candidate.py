@@ -403,7 +403,7 @@ class CandidateProcessAgent:
             middleware=[
                 ModelFallbackMiddleware(first_model=deepseek_llm),
                 SummarizationMiddleware(
-                    model=deepseek_llm,
+                    model=qwen_llm,
                     trigger=("tokens", 50000),
                     keep=("tokens", 10000)
                 )
